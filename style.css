@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#complete label {
+ul#done label {
   text-decoration: line-through;
   color: #888;
 }
@@ -138,11 +138,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.incomplete-edit input[type=text] {
+ul li.undone-edit input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.undone-edit label {
   display:none;
 }
