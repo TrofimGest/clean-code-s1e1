@@ -16,11 +16,12 @@
 .top-link {
   font-family: fantasy, cursive;
 }
+@media (max-width:768px) {
 
-  @media (max-width:768px) {
-    .top {
-			 text-align: center;
-    }
+  .top {
+		text-align: center;
+  }
+
   }
 .main {
   display: block;
