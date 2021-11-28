@@ -31,7 +31,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-add {
   display: flex;
@@ -58,6 +58,7 @@ button {
 button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .heading,
 .elem-list__label {
@@ -106,7 +107,6 @@ button:hover {
 .list > * {
   vertical-align: middle;
 }
-
 .list-check {
   margin: 0 10px;
 }
@@ -117,7 +117,7 @@ button:hover {
   width: 226px;
 }
 .list-inp {
-  width: 226px
+  width: 226px;
 }
 .delete-btn__img {
   height: 2em;
@@ -136,14 +136,12 @@ button:hover {
 
 /* Edit Task */
 .list-inp {
-  display: none
+  display: none;
 }
-
 .undone-edit .list-inp {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
-
 .undone-edit .list-label {
   display: none;
 }
