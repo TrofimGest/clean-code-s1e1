@@ -16,13 +16,15 @@
 .top-link {
   font-family: fantasy, cursive;
 }
+
 @media (max-width:768px) {
 
   .top {
 		text-align: center;
   }
 
-  }
+}
+
 .main {
   display: block;
   width: 500px;
@@ -40,10 +42,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 button {
@@ -129,7 +133,8 @@ button:hover {
 }
 
 /* Completed */
-#done label {
+#done
+label {
   text-decoration: line-through;
   color: #888;
 }
@@ -138,10 +143,12 @@ button:hover {
 .list-inp {
   display: none;
 }
-.undone-edit .list-inp {
+.undone-edit
+.list-inp {
   display: inline-block;
   width: 224px;
 }
-.undone-edit .list-label {
+.undone-edit
+.list-label {
   display: none;
 }
