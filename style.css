@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.top-img {
+.top__img {
   width: 100%;
 }
-.top-link {
+.top__link {
   font-family: fantasy, cursive;
 }
 
@@ -64,8 +64,8 @@ button:hover {
 }
 
 /* Heading */
-.heading,
-.elem-list__label {
+.main__heading,
+.add-form__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -111,24 +111,24 @@ button:hover {
 .list > * {
   vertical-align: middle;
 }
-.list-check {
+.list__check {
   margin: 0 10px;
 }
-.list-label {
+.list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list-inp {
+.list__inp {
   width: 226px;
 }
-.delete-btn__img {
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-btn__img:hover {
+.delete__img:hover {
   transform: rotateZ(0);
 }
 
@@ -140,15 +140,15 @@ label {
 }
 
 /* Edit Task */
-.list-inp {
+.list__inp {
   display: none;
 }
 .undone-edit
-.list-inp {
+.list__inp {
   display: inline-block;
   width: 224px;
 }
 .undone-edit
-.list-label {
+.list__label {
   display: none;
 }
